@@ -7,47 +7,47 @@ export default {
 	},
 	data: () => {
 		return {
-			clientsHeading: 'Some of the brands I have worked with',
+			clientsHeading: 'Representative technology stack',
 			clients: [
 				{
 					id: 1,
-					title: 'Amazon',
-					img: require('@/assets/images/brands/amazon_gray.png'),
+					title: 'Spring',
+					img: require('@/assets/images/developstack/spring-color.svg'),
 				},
 				{
 					id: 2,
-					title: 'Sony',
-					img: require('@/assets/images/brands/sony_gray.png'),
+					title: 'Springboot',
+					img: require('@/assets/images/developstack/springboot-color.svg'),
 				},
 				{
 					id: 3,
-					title: 'Adidas',
-					img: require('@/assets/images/brands/adidas_gray.png'),
+					title: 'Node.js',
+					img: require('@/assets/images/developstack/nodedotjs-color.svg'),
 				},
 				{
 					id: 4,
-					title: 'FILA',
-					img: require('@/assets/images/brands/fila_gray.png'),
+					title: 'React',
+					img: require('@/assets/images/developstack/react-color.svg'),
 				},
 				{
 					id: 5,
-					title: 'NB',
-					img: require('@/assets/images/brands/nb_gray.png'),
+					title: 'Vue',
+					img: require('@/assets/images/developstack/vuedotjs-color.svg'),
 				},
 				{
 					id: 6,
-					title: 'SAMSUNG',
-					img: require('@/assets/images/brands/samsung_gray.png'),
+					title: 'Flutter',
+					img: require('@/assets/images/developstack/flutter-color.svg'),
 				},
 				{
 					id: 7,
-					title: 'CANON',
-					img: require('@/assets/images/brands/canon_gray.png'),
+					title: 'Git',
+					img: require('@/assets/images/developstack/git-color.svg'),
 				},
 				{
-					id: 7,
-					title: 'PUMA',
-					img: require('@/assets/images/brands/puma_gray.png'),
+					id: 8,
+					title: 'Docker',
+					img: require('@/assets/images/developstack/docker-color.svg'),
 				},
 			],
 		};
